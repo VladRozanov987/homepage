@@ -36,6 +36,33 @@ body {
   justify-content: space-between;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-align: center;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+li:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+a:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
 .resume {
   margin: 50px auto;
   border: 1px solid #f5f5f5;
@@ -267,4 +294,10 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+.portfolio-item {
+  border-bottom: 1px solid var(--text-decoration-color);
+  border-top: 1px solid var(--text-decoration-color);
+  margin: 10px 0 10px 0;
 }
